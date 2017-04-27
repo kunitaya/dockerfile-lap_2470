@@ -1,4 +1,4 @@
-# dockerfile-lap
+# dockerfile-lap_2470
 Dockerfile for CentOS with Apache2.4 and PHP7.0
 
 ### Environment
