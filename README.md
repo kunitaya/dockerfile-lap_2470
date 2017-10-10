@@ -19,3 +19,4 @@ docker pull kunitaya/apache24_php70
     * PHP update(7.0.18 -> 7.0.19)
 * 2017-10-10
     * Use init
+    * Undo use init

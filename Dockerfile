@@ -30,10 +30,5 @@ RUN yum clean all
 
 EXPOSE 80 443
 
-VOLUME ["/var/www/html"]
-
-# enable services
-RUN systemctl enable httpd
-
 # exec.
-CMD ["/sbin/init"]
+CMD ["/usr/sbin/apachectl", "-D", "FOREGROUND"]
