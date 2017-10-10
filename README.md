@@ -17,3 +17,5 @@ docker pull kunitaya/apache24_php70
 * 2017-05-11
     * Add mariadb(for mysql command)
     * PHP update(7.0.18 -> 7.0.19)
+* 2017-10-10
+    * Use init

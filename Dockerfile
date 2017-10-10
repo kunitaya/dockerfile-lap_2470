@@ -29,4 +29,11 @@ RUN yum install --enablerepo=epel,remi-php70 -y php php-devel php-gd php-mbstrin
 RUN yum clean all
 
 EXPOSE 80 443
-CMD ["/usr/sbin/apachectl", "-D", "FOREGROUND"]
+
+VOLUME ["/var/www/html"]
+
+# enable services
+RUN systemctl enable httpd
+
+# exec.
+CMD ["/sbin/init"]
