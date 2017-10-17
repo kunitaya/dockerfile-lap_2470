@@ -20,3 +20,5 @@ docker pull kunitaya/apache24_php70
 * 2017-10-10
     * Use init
     * Undo use init
+* 2017-10-17
+    * Add php-pecl-zip
